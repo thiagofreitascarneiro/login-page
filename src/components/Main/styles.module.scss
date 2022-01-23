@@ -1,4 +1,19 @@
 .Container {
-    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font-size: 45px;
+        font-weight: 900;  
+        color: #343434;
+
+        @media screen and (max-width: 900px) {
+            display: none;
+        }
+    }
+
 }
 

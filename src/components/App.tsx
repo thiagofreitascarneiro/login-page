@@ -1,3 +1,6 @@
+ /* eslint-disable */ 
+// eslint-disable-next-line
+
 import React from 'react';
 import bg from '../assets/bg.png'
 import styled from 'styled-components';
