@@ -19,7 +19,18 @@ const Sidebar = () => {
       <Input type="email" placeholder="Email"/>
       <Input type="password" placeholder="Password"/>
       <Input type="password" placeholder="Confirm Password"/>
+      <button className={styles.ButtonSign}> 
+              Sign Up
+      </button>
     </form>
+    <div className={styles.Terms}>
+        <p>
+          ysigning up, I agree to the Privacy Policy <br /> and Terms of Service 
+        </p>
+   </div>
+   <h4>
+        Already have an account? <span> Sign In</span>
+   </h4>
   </div>
   );
 };

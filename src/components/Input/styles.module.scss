@@ -20,7 +20,8 @@ $color-var: #5Dc399;
     transition: all 0.2s ease-in;
 
     &:hover {
-        transform: translateY(-3px)
+        $transform: translateY(-3px)
+        
     }
 
 
