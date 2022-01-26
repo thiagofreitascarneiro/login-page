@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './styles.module.scss';
 import logo from '../../assets/logo.svg';
 import Input from '../Input';
-
+import Modal from 'react-modal';
 
 
 const Sidebar = () => {
+  const [openModal, setOpenModal] = useState(false);
+
+  function handleOpenModal() {
+    setOpenModal(true)
+}
+
+function handleCloseModal() {
+    setOpenModal(false)
+}
+
   return (
   <div className={styles.Container}>
     <div className={styles.logoWrapper}>
@@ -21,7 +31,9 @@ const Sidebar = () => {
       <Input type="password" placeholder="Password"/>
       <Input type="password" placeholder="Confirm Password"/>
     
-      <button className={styles.ButtonSign}> 
+      <button className={styles.ButtonSign}
+        
+      > 
               Sign Up
       </button>
     </form>
@@ -32,7 +44,16 @@ const Sidebar = () => {
    </div>
    <h4>
         Already have an account? 
-        <span> Sign In</span>
+        <span
+          onClick={handleOpenModal}
+        > 
+        Sign In
+        </span>
+        <Modal
+            isOpen={openModal}
+        >
+            <h2>Abrir Modal</h2>
+        </Modal>
    </h4>
   </div>
   );
