@@ -51,7 +51,12 @@ function handleCloseModal() {
         </span>
         <Modal
             isOpen={openModal}
+            onRequestClose={handleCloseModal}
         >
+          <form>
+              <Input type="email" placeholder="Email"/>
+              <Input type="password" placeholder="Password"/> 
+          </form>
             <h2>Abrir Modal</h2>
         </Modal>
    </h4>
