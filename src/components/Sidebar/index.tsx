@@ -50,14 +50,30 @@ function handleCloseModal() {
         Sign In
         </span>
         <Modal
+        
             isOpen={openModal}
             onRequestClose={handleCloseModal}
+            //className="react-modal-content"
+            //overlayClassName="react-modal-overlay"
         >
+          
+          <div className={styles.LogoModal}>
+            <img src={logo} alt=""/>
+            <h3>
+                Finance <span>club</span>
+            </h3>
+          </div>
           <form>
               <Input type="email" placeholder="Email"/>
               <Input type="password" placeholder="Password"/> 
           </form>
-            <h2>Abrir Modal</h2>
+
+          <button className={styles.ButtonModal}
+        
+        > 
+                Enter
+        </button>
+            
         </Modal>
    </h4>
   </div>

@@ -6,7 +6,7 @@ $color-var-green: #5Dc399;
 .Container {
     min-width: 600px;
     backdrop-filter: blur(16px);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.712);
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -78,11 +78,11 @@ $color-var-green: #5Dc399;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.2s ease-in;
-    
+
 
     &:hover {
        
-        background:#3ae291;
+        background:#a7e23a;
         transform: translateY(3px);
     }
 
@@ -95,4 +95,79 @@ $color-var-green: #5Dc399;
   font-size: 10px;
   color: #808080;
   font-weight: 300;
+}
+
+.react-modal-overlay {
+    background: rgba(0,0,0,0.5);
+
+    position: fixed;
+    top:0;
+    bottom:0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.react.modal.content {
+
+    width: 100%;
+    max-width: 576px;
+    background: #70EDB9;
+    padding: 3rem;
+    position: relative;
+    border-radius: 0.24rem;;
+
+}
+
+.LogoModal {
+
+    img {
+        height: 6rem;
+        text-align: center;
+
+    }
+
+    h3 {
+        text-align: center;
+        color: $color-var-red;
+        font-size: 22px;
+    }
+
+    span {
+       color: $color-var-green;
+       font-weight: 300px;
+       font-size: 22px;
+    }
+
+   
+
+}
+
+.ButtonModal { 
+    width: 75%;
+    max-width: 250px;
+    height: 40px;
+    border: none;
+    margin: 1rem 0;
+    //box-shadow: 0px 14px 9px -15px rgba(0,0,0,0.25);
+    border-radius: 8px;
+    background-color: #70EDB9;
+    color:#fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    text-align: center;
+    
+
+&:hover {
+   
+    background:#a7e23a;
+    transform: translateY(3px);
+}
+
+
 }
