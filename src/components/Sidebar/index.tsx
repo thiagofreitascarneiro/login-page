@@ -53,8 +53,9 @@ function handleCloseModal() {
         
             isOpen={openModal}
             onRequestClose={handleCloseModal}
-            //className="react-modal-content"
-            //overlayClassName="react-modal-overlay"
+            //className={styles.ContainerModal}
+            className={styles.reactModal}
+            overlayClassName={styles.overlayModal}
         >
           
           <div className={styles.LogoModal}>

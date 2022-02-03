@@ -97,7 +97,7 @@ $color-var-green: #5Dc399;
   font-weight: 300;
 }
 
-.react-modal-overlay {
+.overlayModal {
     background: rgba(0,0,0,0.5);
 
     position: fixed;
@@ -105,21 +105,25 @@ $color-var-green: #5Dc399;
     bottom:0;
     right: 0;
     left: 0;
-
+    align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
-.react.modal.content {
+.reactModal {
 
     width: 100%;
     max-width: 576px;
-    background: #70EDB9;
+    background: #d8ebe3;
     padding: 3rem;
     position: relative;
-    border-radius: 0.24rem;;
+    border-radius: 0.24rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
 
 }
 
@@ -171,3 +175,4 @@ $color-var-green: #5Dc399;
 
 
 }
+
