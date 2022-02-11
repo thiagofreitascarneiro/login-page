@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './styles.module.scss';
 import logo from '../../assets/logo.svg';
+
 import Input from '../Input';
 import Modal from 'react-modal';
 

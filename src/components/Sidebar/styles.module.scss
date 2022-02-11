@@ -5,7 +5,7 @@ $color-var-green: #5Dc399;
 
 .Container {
     min-width: 600px;
-    backdrop-filter: blur(16px);
+    backdrop-filter: blur(29px);
     background-color: rgba(255, 255, 255, 0.712);
     height: 100%;
     display: flex;
@@ -55,6 +55,7 @@ $color-var-green: #5Dc399;
         text-align: center;
         color: $color-var-red;
         font-size: 22px;
+        
     }
 
     span {
@@ -82,7 +83,7 @@ $color-var-green: #5Dc399;
 
     &:hover {
        
-        background:#a7e23a;
+        background:#657c3b;
         transform: translateY(3px);
     }
 
@@ -116,7 +117,7 @@ $color-var-green: #5Dc399;
 
     width: 100%;
     max-width: 576px;
-    background: #d8ebe3;
+    background-image: linear-gradient(to bottom, rgb(82, 90, 84), rgb(172, 204, 197));
     padding: 3rem;
     position: relative;
     border-radius: 0.24rem;
@@ -139,6 +140,7 @@ $color-var-green: #5Dc399;
         text-align: center;
         color: $color-var-red;
         font-size: 22px;
+        margin-bottom: 45px;
     }
 
     span {
@@ -165,11 +167,12 @@ $color-var-green: #5Dc399;
     cursor: pointer;
     transition: all 0.2s ease-in;
     text-align: center;
+    margin-top: 32px;
     
 
 &:hover {
    
-    background:#a7e23a;
+    background:#424e2c;
     transform: translateY(3px);
 }
 

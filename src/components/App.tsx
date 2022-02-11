@@ -24,7 +24,7 @@ const App = () => {
 };
 
 const Wrapper = styled.div`
-  background-image: url(${finance});
+  background-image: url(${bg});
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
