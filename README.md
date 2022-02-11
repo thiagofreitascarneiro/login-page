@@ -9,7 +9,7 @@
 
 
 
-### O projeto foi criado por mim baseado em uma pagina do figma.  
+### O projeto foi criado baseado em uma pagina do figma.  
 
 
 - [Figma](https://www.figma.com/file/iplx8vxEZYMVWi2bog8bJf/React-Signup?node-id=0%3A1
